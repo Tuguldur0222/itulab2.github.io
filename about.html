@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Миний Тухай - Uzumaki Naruto</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        table.nav {
+            width: 100%;
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            border-collapse: collapse;
+        }
+        th {
+            padding: 15px;
+            text-align: center;
+            background-color: #333;
+        }
+        th a {
+            color: #ccc;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 10px;
+        }
+        th a:hover {
+            color: #ff4081;
+        }
+
+        /* CV Container */
+        .cv-container {
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 30px;
+        }
+
+        /* Profile Section */
+        .profile-section {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 30px;
+            border: 4px solid #ff4081;
+        }
+        .profile-info h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #333;
+        }
+        .profile-info p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* CV Details Table */
+        table.cv {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th.cv-header {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 10px;
+            text-align: left;
+            font-size: 20px;
+        }
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            font-size: 16px;
+            color: #555;
+        }
+        td.title {
+            width: 25%;
+            font-weight: bold;
+            color: #333;
+            padding-right: 20px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .profile-section {
+                flex-direction: column;
+                align-items: center;
+            }
+            .profile-picture {
+                margin-bottom: 20px;
+            }
+            .profile-info {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <table class="nav">
+        <tr>
+            <th><a href="./index.html">Нүүр Хуудас</a></th>
+            <th><a href="./about.html">Миний Тухай</a></th>
+            <th><a href="./family.html">Миний Гэр Бүл</a></th>
+            <th><a href="./friends.html">Найзууд</a></th>
+            <th><a href="./contact.html">Холбоо Барих</a></th>
+        </tr>
+    </table>
+
+    <!-- CV Container -->
+    <div class="cv-container">
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <img src="naruto.jpg" alt="Naruto Uzumaki Profile Picture" class="profile-picture">
+            <div class="profile-info">
+                <h1>Uzumaki Naruto</h1>
+                <p>Нинжа &nbsp;|&nbsp; Хокаге</p>
+                <p>naruto.uzumaki@konoha.com &nbsp;|&nbsp; +81-12345678</p>
+            </div>
+        </div>
+
+        <!-- CV Details Table -->
+        <table class="cv">
+            <tr>
+                <th class="cv-header" colspan="2">CV - Uzumaki Naruto</th>
+            </tr>
+            <tr>
+                <td class="title">Боловсрол:</td>
+                <td>
+                    <strong>Коноха Нинжа Академи</strong><br>
+                    Шиноби сургууль - 2002 онд төгссөн<br>
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Ажлын туршлага:</td>
+                <td>
+                    <strong>Конохагийн 7 дахь Хокаге</strong> (2015 - Одоо)<br>
+                    <strong>Конохагийн Нинжа</strong> - Чүнин, Жоунин түвшний удирдагч (2002 - 2015)<br>
+                    Мөрөөдөл биелсэн: Конохагийн тосгоны хамгийн хүчтэй нинжа.
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Чадварууд:</td>
+                <td>
+                    - Сенжүцу (Байгалийн энергийн техник)<br>
+                    - Шиноби тулаан<br>
+                    - Курамагийн хүчийг ашиглах<br>
+                    - Багийн удирдлага, стратеги боловсруулалт<br>
+                    - Рассенган болон сүүдрийн хуваагдал хийх чадвар
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Гадаад хэл:</td>
+                <td>
+                    Япон хэл (Төрөлх)<br>
+                    Англи хэл (Дунд түвшин)
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Хобби:</td>
+                <td>
+                    - Рамен идэх<br>
+                    - Сургалт, бэлтгэл<br>
+                    - Шиноби багийн нөхдийнхөө хамт адал явдалд оролцох<br>
+                    - Найзуудтайгаа хамт цагийг өнгөрөөх
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Uzumaki Naruto. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
